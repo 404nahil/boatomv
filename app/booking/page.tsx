@@ -72,9 +72,10 @@ export default function SpeedBoatBooking() {
                   onChange={(e) => updateBookingData({ departureIsland: e.target.value })}
                 >
                   <option value="">Select departure island</option>
-                  <option value="Island A">Island A</option>
-                  <option value="Island B">Island B</option>
-                  <option value="Island C">Island C</option>
+                  <option value="kandi">KAND</option>
+                  <option value="goid">GOID</option>
+                  <option value="fays">FEYD</option>
+                  <option value="male">MALE</option>
                 </select>
               </div>
               <div>
@@ -84,9 +85,10 @@ export default function SpeedBoatBooking() {
                   onChange={(e) => updateBookingData({ arrivalIsland: e.target.value })}
                 >
                   <option value="">Select arrival island</option>
-                  <option value="Island A">Island A</option>
-                  <option value="Island B">Island B</option>
-                  <option value="Island C">Island C</option>
+                  <option value="kandi">KAND</option>
+                  <option value="goid">GOID</option>
+                  <option value="fays">FEYD</option>
+                  <option value="male">MALE</option>
                 </select>
               </div>
               <div className="grid grid-cols-2 gap-4">

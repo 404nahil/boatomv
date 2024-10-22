@@ -25,12 +25,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <header className="mt-5 h-5 bg-red-600">e</header>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+      <header className="h-28 navbar -mt-5 w-full bg-white shadow-sm fixed p-5">
+      <h1 className="text-xl text-center sm:text-2xl font-bold mt-12">
+        Boato Dashboard
+      </h1>
+      </header>
+
         {children}
       </body>
+      <footer className="h-10"></footer>
     </html>
   );
 }
